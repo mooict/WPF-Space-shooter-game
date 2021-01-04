@@ -1,0 +1,17 @@
+﻿<Window x:Class="Space_battle_shooter_WPF_MOO_ICT.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Space_battle_shooter_WPF_MOO_ICT"
+        mc:Ignorable="d"
+        Title="Space Battle Shooter Game MOO ICT" Height="615" Width="540">
+    <Canvas Name="MyCanvas" Focusable="True" Background="Black" KeyDown="OnKeyDown" KeyUp="OnKeyUp">
+
+        <Rectangle Name="player" Height="50" Width="60" Fill="Yellow" Canvas.Left="246" Canvas.Top="498" />
+
+        <Label Name="scoreText" Content="Score: 0" FontSize="18" FontWeight="Bold" Foreground="White" />
+        <Label Name="damageText" Content="Score: 0" FontSize="18" FontWeight="Bold" Foreground="White" Canvas.Left="395" />
+
+    </Canvas>
+</Window>
